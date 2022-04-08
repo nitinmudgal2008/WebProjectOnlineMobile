@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Login RechargeFast </title>
+</head>
+<body >
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <span class="ml-3 text-xl">RechargeFast</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="specialoffer.html" class="mr-5 hover:text-gray-900">Special Offer</a>
+            <a href="plans.html" class="mr-5 hover:text-gray-900">Plans</a>
+            <a href="verification.html" class="mr-5 hover:text-gray-900">Verification</a>
+            <a href="aboutus.html" class="mr-5 hover:text-gray-900">About us</a>
+            
+          </nav>
+        </div>
+        <br>
+        <hr>
+    <br><br>
+      <section class="text-gray-700 body-font">
+        <div class="container px-5  mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Login in RechargeFast</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We deliver you the best experience in </p>
+          </div>
+          <div class="text-center ">
+            <div class="relative sm:mr-4 mb-4 sm:mb-0 flex-grow text-center">
+              <label for="phone" class="leading-7 text-sm text-gray-600">Phone number :-</label>
+              <input type="number" id="phone" name="phone" required autocomplete="cc-number" class="w-1/4 bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <br>
+            <div class="relative sm:mr-4 mb-4 sm:mb-0 flex-grow text-center">
+              <label for="password" class="leading-7 text-sm text-gray-600">Password :- </label>
+              <input type="password" id="password" name="email" required autocomplete="current-password" class="w-1/4 bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              
+            </div>
+            <button onclick="fun()" style="color: rgb(39, 106, 151);">Recommend password</button>
+            <br>
+            <br>
+            
+            <button onclick="funlogin()" type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Log In</button>
+          </div>
+        </div>
+      </section>
+      <br>
+      <hr>
+      <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-10 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              
+              <span class="ml-3 text-xl">RechargeFast</span>
+            </a>
+            <p class="mt-2 text-sm text-gray-500">Recharge your Mobile Phones Fastly</p>
+          </div>
+          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><a href="aboutus.html">About Us</a></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="plans.html" class="text-gray-600 hover:text-gray-800">Charges and Fees</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800"></a>
+                </li>
+               
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><a href="">Download App</a></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="contactus.html" class="text-gray-600 hover:text-gray-800">Get Help</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">FAQs</a>
+                </li>
+                
+                
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><a href="login.html">Register</a></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="contactus.html" class="text-gray-600 hover:text-gray-800">Complaint Us</a>
+                </li>
+                <li>
+                  <a href="aboutus.html" class="text-gray-600 hover:text-gray-800">Leadership Teams</a>
+                </li>
+                
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"><a href="contactus.html">Contact Us</a></h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href="contactus.html" class="text-gray-600 hover:text-gray-800">FeedBack</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Policies</a>
+                </li>
+               
+              </nav>
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+
+
+    <script src="loginjs.js"></script>
+</body>
